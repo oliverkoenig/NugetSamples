@@ -17,7 +17,8 @@ namespace NuGet.Protocol.Catalog
 
         private static async Task MainAsync()
         {
-            using (var loggerFactory = new LoggerFactory().AddConsole(LogLevel.Warning))
+            //using (var loggerFactory = new LoggerFactory().AddConsole(LogLevel.Warning))
+            using (var loggerFactory = LoggerFactory.Create(builder => builder.AddConsole()))
             using (var httpClient = new HttpClient())
             {
                 var simpleHttpClient = new SimpleHttpClient(httpClient, loggerFactory.CreateLogger<SimpleHttpClient>());
