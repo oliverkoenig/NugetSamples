@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27016.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatalogReaderExample", "CatalogReaderExample\CatalogReaderExample.csproj", "{B1DF62AC-4D9F-475A-951D-890F8E0CBBED}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NuGet.Protocol.Catalog.Sample", "NuGet.Protocol.Catalog.Sample\NuGet.Protocol.Catalog.Sample.csproj", "{F4CFA39E-98EB-499E-946A-C7233812D1BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{EE685EF5-6FD2-4B32-BAC7-F78AAF330897}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.config = NuGet.config
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

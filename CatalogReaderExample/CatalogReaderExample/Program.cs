@@ -1,4 +1,6 @@
-﻿using System;
+﻿namespace CatalogReaderExample;
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,8 +9,6 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using NuGet.Protocol;
 using NuGet.Protocol.Core.Types;
-
-namespace CatalogReaderExample;
 
 public class Program
 {
